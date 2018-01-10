@@ -1,0 +1,8 @@
+numpy
+pandas
+tensorflow
+matplotlib
+jupyter-tensorboard
+RICE
+ipywidgets
+jupyter_contrib_nbextensions
