@@ -13,3 +13,4 @@ RUN jupyter nbextension enable python-markdown/main
 RUN jupyter nbextension enable toc2/main
 RUN jupyter nbextension enable spellchecker/main
 RUN jupyter nbextension enable collapsible_headings/main
+RUN git clone https://github.com/sjoerddehaan/tensorflow_workshops
