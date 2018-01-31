@@ -2,7 +2,7 @@ numpy
 pandas
 tensorflow
 matplotlib
-jupyter-tensorboard
+tensorboard
 RICE
 ipywidgets
 jupyter_contrib_nbextensions
