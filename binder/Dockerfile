@@ -1,7 +1,7 @@
 FROM jupyter/tensorflow-notebook:033056e6d164
 MAINTAINER Sjoerd de Haan
 USER jovyan
-RUN pip install tensorflow-tensorboard jupyter-tensorboard RISE jupyter_contrib_nbextensions
+RUN pip install tensorflow==1.3.0 tensorflow-tensorboard==0.1.8 jupyter-tensorboard==0.1.4 RISE jupyter_contrib_nbextensions
 RUN jupyter-nbextension install rise --py --sys-prefix 
 RUN jupyter-nbextension enable rise --py --sys-prefix
 RUN jupyter contrib nbextension install --sys-prefix
