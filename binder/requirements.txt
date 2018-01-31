@@ -1,8 +1,0 @@
-numpy
-pandas
-tensorflow==1.5.0
-matplotlib
-jupyter-tensorboard==0.1.4
-RICE
-ipywidgets
-jupyter_contrib_nbextensions
